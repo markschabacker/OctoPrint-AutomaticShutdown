@@ -10,7 +10,7 @@ $(function() {
         PNotify.prototype.options.confirm.buttons = [];
         self.timeoutPopupText = gettext('Shutting down in ');
         self.timeoutPopupOptions = {
-            title: gettext('System Shutdown'),
+            title: gettext('Printer Shutdown'),
             type: 'notice',
             icon: true,
             hide: false,
